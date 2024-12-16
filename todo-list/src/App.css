@@ -1,0 +1,43 @@
+html{
+  background-color: #3B3B3B;
+}
+
+.App{
+  border: 1px solid black;
+  margin: 50px 25px;
+  padding: 25px 15px;
+  color: white;
+}
+
+.container ul li {
+  width: 200px;
+  overflow-wrap: break-word;
+  list-style-type: "📌 ";
+  cursor: pointer;
+
+}
+
+.container input{
+  color: black;
+  padding: 2px 20px;
+}
+
+.container button {
+  padding: 2px 20px;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 -2px; */
+  /* padding: 0 10px; */
+}
+
+.todo-item span {
+  cursor: pointer;
+}
